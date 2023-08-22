@@ -2,11 +2,9 @@
 <h1><%=t("header.help_link")%></h1>
 <p>
   <%= t("help.mess1")%>
-  <a href="https://www.railstutorial.org/help"><%=t('help.mess2')%></a>.
-  <%= t('help.mess3')%>
-  <a href="https://www.railstutorial.org/book"><em><%=t('help.mess2')%></em>
-  </a>.
+  <%= link_to t("help.mess2"), "https://www.railstutorial.org/help" %>
+  <%= t("help.mess3")%>
+  <%= link_to content_tag(:em, t("help.mess2")), "https://www.railstutorial.org/book" %>.
 </p>
 <%= link_to t("enl"), locale: "en" %>
 <%= link_to t("vnl"), locale: "vi" %>
-
