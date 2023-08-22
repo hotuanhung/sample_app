@@ -15,15 +15,10 @@ vi:
     about_link: "Giới thiệu"
     contact_link: "Liên hệ"
     news_link: "Tin tức"
-<<<<<<< HEAD
   help:
     mess1: "Nhận sự trợ giúp về Hướng dẫn Ruby on Rails tại "
     mess2: "trang Trợ giúp Hướng dẫn Rails"
     mess3: "Để nhận sự trợ giúp về ứng dụng mẫu này, hãy xem"
     mess4: "sách Hướng dẫn Ruby on Rails Tutorial"
-<<<<<<< HEAD
   base_title : "Ứng dụng mẫu Ruby on Rail "
-=======
->>>>>>> 8e4cbfe (help page i18n)
-=======
->>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)
+
