@@ -29,5 +29,40 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
+
+# config/locales/en.yml
 en:
+<<<<<<< HEAD
+<<<<<<< HEAD
   hello: "Hello world"
+=======
+=======
+>>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)
+  enl: "English"
+  vnl: "Vietnamese"
+  welcome_message: "Welcome to the Sample App"
+  tutorial_description: "This is the home page for the Ruby on Rails Tutorial sample application."
+  sign_up_button: "Sign up now!"
+  rails_logo_alt: "Rails logo"
+  header:
+    logo_text: "sample app"
+    home_link: "Home"
+    help_link: "Help"
+    login_link: "Log in"
+  footer:
+    about_link: "About"
+    contact_link: "Contact"
+    news_link: "News"
+<<<<<<< HEAD
+  help:
+    mess1: "Get help on the Ruby on Rails Tutorial at the "
+    mess2: "Rails Tutorial Help page"
+    mess3: "To get help on this sample app, see the"
+    mess4: "Ruby on Rails Tutorial book"
+<<<<<<< HEAD
+  base_title : "Ruby on Rail Tutorial Sample App"
+>>>>>>> c9f3aa9 (fix)
+=======
+>>>>>>> 8e4cbfe (help page i18n)
+=======
+>>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)

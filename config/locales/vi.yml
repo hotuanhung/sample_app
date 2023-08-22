@@ -1,0 +1,29 @@
+# config/locales/vn.yml
+vi:
+  enl: "Tiếng Anh"
+  vnl: "Tiếng Việt"
+  welcome_message: "Chào mừng đến với ứng dụng mẫu"
+  tutorial_description: "Đây là trang chủ cho ứng dụng mẫu của hướng dẫn Ruby on Rails."
+  sign_up_button: "Đăng ký ngay!"
+  rails_logo_alt: "Biểu tượng Rails"
+  header:
+    logo_text: "Ứng dụng mẫu"
+    home_link: "Trang chủ"
+    help_link: "Trợ giúp"
+    login_link: "Đăng nhập"
+  footer:
+    about_link: "Giới thiệu"
+    contact_link: "Liên hệ"
+    news_link: "Tin tức"
+<<<<<<< HEAD
+  help:
+    mess1: "Nhận sự trợ giúp về Hướng dẫn Ruby on Rails tại "
+    mess2: "trang Trợ giúp Hướng dẫn Rails"
+    mess3: "Để nhận sự trợ giúp về ứng dụng mẫu này, hãy xem"
+    mess4: "sách Hướng dẫn Ruby on Rails Tutorial"
+<<<<<<< HEAD
+  base_title : "Ứng dụng mẫu Ruby on Rail "
+=======
+>>>>>>> 8e4cbfe (help page i18n)
+=======
+>>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)

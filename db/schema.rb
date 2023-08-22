@@ -10,5 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 0) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2023_08_18_082603) do
+=======
+ActiveRecord::Schema[7.0].define(version: 2023_08_16_072204) do
+>>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)
+  create_table "products", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+<<<<<<< HEAD
+  create_table "users", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "password_digest"
+  end
+
+>>>>>>> e059cdf (Add user model)
+=======
+>>>>>>> 9d35123 (Chapter 3_4_5 Add gem config Add i18n)
 end
