@@ -7,9 +7,15 @@ ruby "3.2.2"
 gem "rails", "~> 7.0.5"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
-
+gem "bootstrap-sass", "3.4.1"
+gem "sassc-rails", "2.1.2"
+gem "sprockets-rails", "3.4.2"
 # Use mysql as the database for Active Record
+gem "config"
+# Add gem config
+gem "i18n"
+# Add gem i18n lang
+
 gem "mysql2", "~> 0.5"
 
 # Use the Puma web server [https://github.com/puma/puma]

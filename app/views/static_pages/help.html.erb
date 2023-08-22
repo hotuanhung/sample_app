@@ -1,0 +1,10 @@
+<% provide :title , t("header.help_link") %>
+<h1><%= t("header.help_link") %></h1>
+<p>
+  <%= t("help.mess1") %>
+  <%= link_to t("help.mess2"), "https://www.railstutorial.org/help" %>.
+  <%= t("help.mess3") %>
+  <%= link_to content_tag(:em, t("help.mess2")), "https://www.railstutorial.org/book" %>.
+</p>
+<%= link_to t("enl"), locale: "en" %>
+<%= link_to t("vnl"), locale: "vi" %>

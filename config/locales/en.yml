@@ -29,5 +29,28 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
+
+# config/locales/en.yml
 en:
-  hello: "Hello world"
+  enl: "English"
+  vnl: "Vietnamese"
+  welcome_message: "Welcome to the Sample App"
+  tutorial_description: "This is the home page for the Ruby on Rails Tutorial sample application."
+  sign_up_button: "Sign up now!"
+  rails_logo_alt: "Rails logo"
+  rorttr: "Ruby on Rails Tutorial"
+  header:
+    logo_text: "sample app"
+    home_link: "Home"
+    help_link: "Help"
+    login_link: "Log in"
+  footer:
+    about_link: "About"
+    contact_link: "Contact"
+    news_link: "News"
+  help:
+    mess1: "Get help on the Ruby on Rails Tutorial at the "
+    mess2: "Rails Tutorial Help page"
+    mess3: "To get help on this sample app, see the"
+    mess4: "Ruby on Rails Tutorial book"
+  base_title : "Ruby on Rail Tutorial Sample App"
