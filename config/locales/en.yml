@@ -11,6 +11,11 @@ en:
     home_link: "Home"
     help_link: "Help"
     login_link: "Log in"
+    user: "Users"
+    profile: "Profile"
+    set: "Settings"
+    logout: "Log out"
+    acc: "Account"
   footer:
     about_link: "About"
     contact_link: "Contact"
@@ -31,3 +36,4 @@ en:
     btn: "Create my account"
   flash:
     success: "Welcome to the Sample App!"
+    danger: "Invalid email/password combination"

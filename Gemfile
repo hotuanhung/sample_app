@@ -15,7 +15,6 @@ gem "config"
 # Add gem config
 gem "i18n"
 # Add gem i18n lang
-
 gem "mysql2", "~> 0.5"
 
 # Use the Puma web server [https://github.com/puma/puma]
