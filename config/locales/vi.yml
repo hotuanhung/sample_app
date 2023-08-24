@@ -1,4 +1,3 @@
-# config/locales/vn.yml
 vi:
   enl: "Tiếng Anh"
   vnl: "Tiếng Việt"
@@ -22,4 +21,22 @@ vi:
     mess3: "Để nhận sự trợ giúp về ứng dụng mẫu này, hãy xem"
     mess4: "sách Hướng dẫn Ruby on Rails Tutorial"
   base_title : "Ứng dụng mẫu Ruby on Rail "
+  sign_up:
+    title: "Đăng ký"
+    name: "Tên"
+    mail: "Email"
+    pass: "Mật khẩu"
+    pass_confirm: "Xác nhận mật khẩu"
+    btn: "Tạo tài khoản của tôi"
+  flash:
+    success: "Chào mừng bạn đến với Ứng dụng mẫu!"
   user_page: "Trang người dùng"
+  sign_up:
+    title: "Đăng ký"
+    name: "Tên"
+    mail: "Email"
+    pass: "Mật khẩu"
+    pass_confirm: "Xác nhận mật khẩu"
+    btn: "Tạo tài khoản của tôi"
+  flash:
+    success: "Chào mừng bạn đến với Ứng dụng mẫu!"
