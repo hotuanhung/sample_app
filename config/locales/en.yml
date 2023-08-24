@@ -54,3 +54,4 @@ en:
     mess3: "To get help on this sample app, see the"
     mess4: "Ruby on Rails Tutorial book"
   base_title : "Ruby on Rail Tutorial Sample App"
+  user_page: "User Page"

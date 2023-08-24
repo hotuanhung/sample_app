@@ -31,4 +31,4 @@
 /config/master.key
 /config/database.yml
 
-/test/
+test/*
