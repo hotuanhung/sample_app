@@ -4,16 +4,25 @@ class User < ApplicationRecord
   validates :name, presence: true,
             length: {maximum: Settings.validate.name.length.max}
 
-  VALID_EMAIL_REGEX = Settings.validate.email.regex
-
   validates :email, presence: true,
-          length: {maximum: Settings.validate.email.length.max},
-          format: {with: Settings.validate.email.regex}
+            length: {maximum: Settings.validate.email.length.max},
+            format: {with: Settings.validate.email.regex}
 
   has_secure_password
-
   validates :password, presence: true,
-            length: {minimum: Settings.validate.password.length.max}
+            length: {minimum: Settings.validate.password.length.min}
+
+  class << self
+    # Returns the hash digest of the given string.
+    def digest string_param
+      cost = if ActiveModel::SecurePassword.min_cost
+               BCrypt::Engine::MIN_COST
+             else
+               BCrypt::Engine.cost
+             end
+      BCrypt::Password.create string_param, cost
+    end
+  end
 
   private
 

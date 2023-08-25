@@ -11,6 +11,11 @@ vi:
     home_link: "Trang chủ"
     help_link: "Trợ giúp"
     login_link: "Đăng nhập"
+    user: "Người dùng"
+    profile: "Hồ sơ"
+    set: "Cài đặt"
+    logout: "Đăng xuất"
+    acc: "Tài khoản"
   footer:
     about_link: "Giới thiệu"
     contact_link: "Liên hệ"
@@ -28,8 +33,6 @@ vi:
     pass: "Mật khẩu"
     pass_confirm: "Xác nhận mật khẩu"
     btn: "Tạo tài khoản của tôi"
-  flash:
-    success: "Chào mừng bạn đến với Ứng dụng mẫu!"
   user_page: "Trang người dùng"
   sign_up:
     title: "Đăng ký"
@@ -40,3 +43,4 @@ vi:
     btn: "Tạo tài khoản của tôi"
   flash:
     success: "Chào mừng bạn đến với Ứng dụng mẫu!"
+    danger: "Email sai/mật khẩu không đúng"
