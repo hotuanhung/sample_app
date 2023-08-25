@@ -37,3 +37,4 @@ en:
   flash:
     success: "Welcome to the Sample App!"
     danger: "Invalid email/password combination"
+  remember: "Remember me on this computer"

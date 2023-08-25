@@ -4,11 +4,9 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user&.authenticate(params[:session][:password])
-      reset_session
-      log_in user
-      redirect_to user
+      handle_if_authenticated user
     else
-      flash[:danger] = t("flash.danger")
+      flash.now[:danger] = t("flash.danger")
       render :new, status: :unprocessable_entity
     end
   end
@@ -16,5 +14,14 @@ class SessionsController < ApplicationController
   def destroy
     log_out if logged_in?
     redirect_to root_url
+  end
+
+  private
+
+  def handle_if_authenticated user
+    reset_session
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    log_in user
+    redirect_to user
   end
 end
