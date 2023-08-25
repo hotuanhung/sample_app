@@ -44,3 +44,4 @@ vi:
   flash:
     success: "Chào mừng bạn đến với Ứng dụng mẫu!"
     danger: "Email sai/mật khẩu không đúng"
+  remember: "Nhớ tôi trên thiết bị này"
