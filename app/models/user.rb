@@ -11,7 +11,7 @@ class User < ApplicationRecord
             format: {with: Settings.validate.email.regex}
 
   has_secure_password
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
             length: {minimum: Settings.validate.password.length.min}
   class << self
     def digest string

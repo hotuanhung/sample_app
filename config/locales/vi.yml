@@ -44,4 +44,20 @@ vi:
   flash:
     success: "Chào mừng bạn đến với Ứng dụng mẫu!"
     danger: "Email sai/mật khẩu không đúng"
+    not_found: "Không tìm thấy người dùng!"
+    update_succ: "Cập nhật thành công!"
+    logged_in: "Vui lòng đăng nhập."
+    wrong_user: "Bạn không thể chỉnh sửa tài khoản này."
+    user_delete: "Người dùng đã bị xóa"
+    user_delete_fail: "Xóa không thành công!"
   remember: "Nhớ tôi trên thiết bị này"
+  edit:
+    title: "Chỉnh sửa người dùng"
+    header: "Cập nhật hồ sơ của bạn"
+    save: "Lưu các thay đổi"
+    change: "Thay đổi"
+  index:
+    title: "Tất cả người dùng"
+  admin:
+    delete: "Xóa"
+    confirm_delete: "Bạn chắc chắn chứ?"

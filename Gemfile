@@ -80,3 +80,5 @@ group :test do
 end
 
 gem "bcrypt", "3.1.13"
+gem "faker", "2.21.0"
+gem "pagy"

@@ -13,3 +13,4 @@ validate:
   password:
     length:
       min: 3
+page_30: 30
