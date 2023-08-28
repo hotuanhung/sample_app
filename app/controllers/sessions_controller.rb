@@ -22,6 +22,6 @@ class SessionsController < ApplicationController
     reset_session
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     log_in user
-    redirect_to user
+    redirect_back_or user
   end
 end

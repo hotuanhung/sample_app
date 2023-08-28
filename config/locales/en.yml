@@ -37,4 +37,21 @@ en:
   flash:
     success: "Welcome to the Sample App!"
     danger: "Invalid email/password combination"
+    not_found: "Not found user!"
+    update_succ: "Update sucessfully!"
+    logged_in: "Please log in."
+    wrong_user: "You cannot edit this account."
+    user_delete: "User deleted"
+    user_delete_fail: "Delete fail!"
+    not_admin: "You need to be an admin to access this page."
   remember: "Remember me on this computer"
+  edit:
+    title: "Edit user"
+    header: "Update your profile"
+    save: "Save changes"
+    change: "Change"
+  index:
+    title: "All users"
+  admin:
+    delete: "Delete"
+    confirm_delete: "You sure?"
