@@ -43,6 +43,10 @@ en:
     wrong_user: "You cannot edit this account."
     user_delete: "User deleted"
     user_delete_fail: "Delete fail!"
+    info: "Please check your email to activate your account."
+    active: "Account activated!"
+    active_fail: "Invalid activation link"
+    not_activated: "Account not activated. Check your email for the activation link."
     not_admin: "You need to be an admin to access this page."
   remember: "Remember me on this computer"
   edit:
@@ -55,3 +59,16 @@ en:
   admin:
     delete: "Delete"
     confirm_delete: "You sure?"
+  forgot_password:
+    title: "Forgot password"
+    header: "Forgot password"
+    email_label: "Email"
+    submit_button: "Submit"
+    email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+  email:
+    subject: "Sample App"
+    greeting: "Hi"
+    mess: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate_button: "Activate"
+    active: "Account activation"

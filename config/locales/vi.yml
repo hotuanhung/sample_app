@@ -50,7 +50,9 @@ vi:
     wrong_user: "Bạn không thể chỉnh sửa tài khoản này."
     user_delete: "Người dùng đã bị xóa"
     user_delete_fail: "Xóa không thành công!"
-    not_admin: "Bạn cần phải là người quản trị để truy cập trang này."
+    active: "Tài khoản đã được kích hoạt!"
+    active_fail: "Liên kết kích hoạt không hợp lệ."
+    not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy liên kết kích hoạt."
   remember: "Nhớ tôi trên thiết bị này"
   edit:
     title: "Chỉnh sửa người dùng"
@@ -62,3 +64,16 @@ vi:
   admin:
     delete: "Xóa"
     confirm_delete: "Bạn chắc chắn chứ?"
+  forgot_password:
+    title: "Quên mật khẩu"
+    header: "Quên mật khẩu"
+    email_label: "Email"
+    submit_button: "Gửi"
+    email_sent: "Email chứa hướng dẫn đặt lại mật khẩu đã được gửi"
+    email_not_found: "Không tìm thấy địa chỉ email"
+  email:
+    subject: "ứng dụng mẫu"
+    greeting: "Xin chào"
+    welcome: "Chào mừng bạn đến với ứng dụng mẫu! Nhấn vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+    activate_button: "Kích hoạt"
+    active: "Kích hoạt tài khoản"

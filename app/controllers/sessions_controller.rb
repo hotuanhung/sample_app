@@ -1,10 +1,16 @@
 class SessionsController < ApplicationController
+  before_action :find_user, only: %i(create)
+
   def new; end
 
   def create
-    user = User.find_by(email: params[:session][:email].downcase)
-    if user&.authenticate(params[:session][:password])
-      handle_if_authenticated user
+    if @user&.authenticate(params[:session][:password])
+      if @user.activated
+        handle_if_authenticated @user
+      else
+        flash[:warning] = t("flash.not_activated")
+        redirect_to root_url
+      end
     else
       flash.now[:danger] = t("flash.danger")
       render :new, status: :unprocessable_entity
@@ -23,5 +29,9 @@ class SessionsController < ApplicationController
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     log_in user
     redirect_back_or user
+  end
+
+  def find_user
+    @user = User.find_by(email: params[:session][:email].downcase)
   end
 end

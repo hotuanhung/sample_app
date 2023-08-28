@@ -81,4 +81,6 @@ end
 
 gem "bcrypt", "3.1.13"
 gem "faker", "2.21.0"
+gem "figaro", "~> 1.1", ">= 1.1.1"
+gem "letter_opener", group: :development
 gem "pagy"
