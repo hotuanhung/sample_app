@@ -48,6 +48,10 @@ class User < ApplicationRecord
     BCrypt::Password.new(digest).is_password? token
   end
 
+  def password_reset_expired?
+    reset_sent_at < 2.hours.ago
+  end
+
   # Activates an account.
   def activate
     update_columns activated: true, activated_at: Time.zone.now
