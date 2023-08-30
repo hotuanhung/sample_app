@@ -110,3 +110,10 @@ vi:
   image:
     mess1: "Phải là định dạng hình ảnh hợp lệ"
     mess2: "Nên nhỏ hơn 5MB"
+  stats:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+  rela:
+    fl: "Theo dõi"
+    unfl: "Bỏ theo dõi"
+    not_found: "Không tìm thấy người dùng!"
