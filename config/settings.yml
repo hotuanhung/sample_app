@@ -15,3 +15,11 @@ validate:
       min: 3
 page_30: 30
 gravatar_edit_link: "https://gravatar.com/emails"
+page_10: 10
+micropost:
+  content:
+    length:
+      max: 140
+digit_50: 50
+model:
+  image_type: <%= %w(image/jpeg image/gif image/png) %>

@@ -78,9 +78,11 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
+gem "active_storage_validations", "0.8.2"
 gem "bcrypt", "3.1.13"
 gem "faker", "2.21.0"
 gem "figaro", "~> 1.1", ">= 1.1.1"
+gem "image_processing", "1.9.3"
 gem "letter_opener", group: :development
+gem "mini_magick", "4.9.5"
 gem "pagy"
