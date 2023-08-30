@@ -96,3 +96,10 @@ en:
   image:
     mess1: "must be a valid image format"
     mess2: "should be less than 5MB"
+  stats:
+    following: "Following"
+    followers: "Followers"
+  rela:
+    fl: "Follow"
+    unfl: "Unfollow"
+    not_found: "User not found!"
