@@ -12,4 +12,14 @@ class ApplicationController < ActionController::Base
                     I18n.default_locale
                   end
   end
+
+  private
+
+  def logged_in_user
+    return if logged_in?
+
+    flash[:danger] = t("flash.logged_in")
+    store_location
+    redirect_to login_url, status: :see_other
+  end
 end
